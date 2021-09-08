@@ -2,25 +2,30 @@
   "expo": {
     "name": "12-CameraMapsLocation",
     "slug": "12-CameraMapsLocation",
+    "description": "Mobile App with Camera and Maps location",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/places.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#171717"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lukkoli.cameramapslocation",
+      "buildNumber": "1.0.0"
     },
     "android": {
+      "package": "com.lukkoli.cameramapslocation",
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "foregroundImage": "./assets/places-adaptive.png",
+        "backgroundColor": "#171717"
       }
     },
     "web": {
